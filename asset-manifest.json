@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FE_jemappellenoraPersonal/static/css/main.12b93baf.chunk.css",
+    "main.js": "/FE_jemappellenoraPersonal/static/js/main.03e91517.chunk.js",
+    "main.js.map": "/FE_jemappellenoraPersonal/static/js/main.03e91517.chunk.js.map",
+    "runtime-main.js": "/FE_jemappellenoraPersonal/static/js/runtime-main.40cbf48a.js",
+    "runtime-main.js.map": "/FE_jemappellenoraPersonal/static/js/runtime-main.40cbf48a.js.map",
+    "static/js/2.dd46c356.chunk.js": "/FE_jemappellenoraPersonal/static/js/2.dd46c356.chunk.js",
+    "static/js/2.dd46c356.chunk.js.map": "/FE_jemappellenoraPersonal/static/js/2.dd46c356.chunk.js.map",
+    "index.html": "/FE_jemappellenoraPersonal/index.html",
+    "precache-manifest.7af3953a60a78bb88ca68af8394b54d3.js": "/FE_jemappellenoraPersonal/precache-manifest.7af3953a60a78bb88ca68af8394b54d3.js",
+    "service-worker.js": "/FE_jemappellenoraPersonal/service-worker.js",
+    "static/css/main.12b93baf.chunk.css.map": "/FE_jemappellenoraPersonal/static/css/main.12b93baf.chunk.css.map",
+    "static/js/2.dd46c356.chunk.js.LICENSE.txt": "/FE_jemappellenoraPersonal/static/js/2.dd46c356.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40cbf48a.js",
+    "static/js/2.dd46c356.chunk.js",
+    "static/css/main.12b93baf.chunk.css",
+    "static/js/main.03e91517.chunk.js"
+  ]
+}
