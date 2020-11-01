@@ -5,7 +5,7 @@ const NavBarView = () => {
   return (
     <nav className="navBar">
       <Link to="/" className="navLink">
-        Home
+        Profile
       </Link>
     </nav>
   );
