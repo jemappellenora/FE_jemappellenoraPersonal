@@ -1,6 +1,10 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import { HomeContainer, ProfileContainer } from "../containers";
+import {
+  HomeContainer,
+  ProfileContainer,
+  ExperiencesContainer,
+} from "../containers";
 
 const RoutesView = () => {
   return (
@@ -11,6 +15,7 @@ const RoutesView = () => {
         component={HomeContainer}
       />
       <Route exact path="/" component={ProfileContainer} />
+      <Route exact path="/experiences/" component={ExperiencesContainer} />
     </Switch>
   );
 };
