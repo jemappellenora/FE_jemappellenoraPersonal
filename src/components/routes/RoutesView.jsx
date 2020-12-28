@@ -1,11 +1,16 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import { HomeContainer } from "../containers";
+import { HomeContainer, ProfileContainer } from "../containers";
 
 const RoutesView = () => {
   return (
     <Switch>
-      <Route exact path="/" component={HomeContainer} />
+      <Route
+        exact
+        path="/FE_jemappellenoraPersonal/"
+        component={HomeContainer}
+      />
+      <Route exact path="/" component={ProfileContainer} />
     </Switch>
   );
 };
