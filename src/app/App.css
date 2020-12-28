@@ -29,6 +29,7 @@
   position: fixed;
   justify-content: end;
   height: 100%;
+  width: 8%;
   z-index: 1;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -37,11 +38,11 @@
 }
 
 .navLink {
+  display: inline-block;
   text-decoration: none;
   color: white;
   font-size: 18px;
   font-weight: 500;
-  padding-top: 100px;
 }
 .navLink:visited {
   text-decoration: none;
@@ -49,4 +50,21 @@
 }
 .navLink:hover {
   color: salmon;
+}
+
+.expCard {
+  display: inline-block;
+  /* background-color: rgba(255, 0, 0, 0.05); */
+  border: 5px solid rgba(255, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
+  margin: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-align: start;
+  width: 75%;
+}
+
+li {
+  list-style-type: square;
+  font-size: 15px;
 }
