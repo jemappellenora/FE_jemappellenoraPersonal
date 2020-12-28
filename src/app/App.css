@@ -23,18 +23,15 @@
 }
 
 .navBar {
-  background-color: lavender;
-  padding: 15px;
-  padding-top: 75px;
   position: fixed;
-  justify-content: end;
   height: 100%;
-  width: 8%;
+  width: 100px;
   z-index: 1;
+  background-color: rgba(255, 0, 0, 0.1);
   overflow-x: hidden;
   overflow-y: hidden;
   overflow: hidden;
-  right: 0;
+  padding-top: 75px;
 }
 
 .navLink {
@@ -46,10 +43,10 @@
 }
 .navLink:visited {
   text-decoration: none;
-  color: #454545;
+  color: #555555;
 }
 .navLink:hover {
-  color: salmon;
+  color: lavender;
 }
 
 .expCard {
