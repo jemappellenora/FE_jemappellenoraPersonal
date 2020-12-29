@@ -4,7 +4,7 @@ function ExperiencesView() {
   return (
     <div id="dummyExperiences">
       <h3>Experiences</h3>
-      <div className="expCard">
+      <div className="card">
         <h4>Commit to Green | JUNE2020 - AUG2020</h4>
         <h6>Front-End Software Development Intern</h6>
         <li>
@@ -16,7 +16,7 @@ function ExperiencesView() {
           additional relevant data
         </li>
       </div>
-      <div className="expCard">
+      <div className="card">
         <h4>NYC Tech Talent Pipeline | MAY2020 - JUNE2020</h4>
         <h6>Full-Stack Software Development Intern</h6>
         <li>
@@ -29,7 +29,7 @@ function ExperiencesView() {
           interface design
         </li>
       </div>
-      <div className="expCard">
+      <div className="card">
         <h4>J.P.Morgan | April2020</h4>
         <h6>Virtual Software Engineer Intern</h6>
         <li>
@@ -38,7 +38,7 @@ function ExperiencesView() {
           to manipulate and present data feeds visually in web applications
         </li>
       </div>
-      <div className="expCard">
+      <div className="card">
         <h4>WITNY Summer Guild at Cornell Tech | June2018</h4>
         <h6>Participant</h6>
         <li>
