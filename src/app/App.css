@@ -34,18 +34,18 @@
   padding-top: 75px;
 }
 
-.navLink {
+.mylinks {
   display: inline-block;
   text-decoration: none;
   color: white;
   font-size: 18px;
   font-weight: 500;
 }
-.navLink:visited {
+.mylinks:visited {
   text-decoration: none;
   color: #555555;
 }
-.navLink:hover {
+.mylinks:hover {
   color: lavender;
 }
 

@@ -7,12 +7,12 @@ const ProjectView = () => {
         <h4>Projects</h4>
         <h6>[Click to View]</h6>
         <li>
-          <a href="http://www.icompost.info" className="navLink">
+          <a href="http://www.icompost.info" className="mylinks">
             ICompost
           </a>
         </li>
         <li>
-          <a href="https://eco-carrot.web.app/" className="navLink">
+          <a href="https://eco-carrot.web.app/" className="mylinks">
             EcoCarrot
           </a>
           <div style={{ marginLeft: "50px" }}>
