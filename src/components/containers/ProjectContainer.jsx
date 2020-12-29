@@ -1,8 +1,13 @@
 import React, { Component } from "react";
+import { ProjectView } from "../views";
 
 class ProjectContainer extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <ProjectView />
+      </div>
+    );
   }
 }
 
