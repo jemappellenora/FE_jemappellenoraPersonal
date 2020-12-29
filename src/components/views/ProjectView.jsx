@@ -3,7 +3,7 @@ import React from "react";
 const ProjectView = () => {
   return (
     <div id="dummyProjects">
-      <div className="card">
+      <div className="card" style={{ width: "100%" }}>
         <h4>Projects</h4>
         <h6>[Click to View]</h6>
         <li>
