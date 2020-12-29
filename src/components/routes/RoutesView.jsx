@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import {
-  HomeContainer,
+  ProjectContainer,
   ProfileContainer,
   ExperiencesContainer,
 } from "../containers";
@@ -12,9 +12,9 @@ const RoutesView = () => {
       <Route
         exact
         path="/FE_jemappellenoraPersonal/"
-        component={HomeContainer}
+        component={ProfileContainer}
       />
-      <Route exact path="/" component={ProfileContainer} />
+      <Route exact path="/projects/" component={ProjectContainer} />
       <Route exact path="/experiences/" component={ExperiencesContainer} />
     </Switch>
   );

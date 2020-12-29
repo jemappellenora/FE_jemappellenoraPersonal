@@ -1,7 +1,7 @@
 import React from "react";
 
-const HomeView = () => {
+const ProjectView = () => {
   return <div>Hello from Home</div>;
 };
 
-export default HomeView;
+export default ProjectView;
