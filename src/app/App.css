@@ -18,34 +18,102 @@
   color: #454545;
 }
 
-.genInfo {
+.genInfoTable {
+  display: inline-block;
   font-size: 20px;
+  margin: 10px;
+  text-align: start;
 }
 
 .navBar {
-  background-color: lavender;
-  padding: 15px;
-  padding-top: 75px;
   position: fixed;
-  justify-content: end;
   height: 100%;
+  width: 100px;
   z-index: 1;
+  background-color: rgba(255, 0, 0, 0.1);
   overflow-x: hidden;
   overflow-y: hidden;
   overflow: hidden;
-  right: 0;
+  padding-top: 75px;
 }
 
-.navLink {
+.myForm {
+  display: inline-block;
+  border: 5px solid rgba(255, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
+  font-size: 20px;
+  margin: 10px;
+  padding: 0px 0px 0px 20px;
+  text-align: center;
+  width: 75%;
+}
+
+.formButton {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.text-primary {
+  vertical-align: middle;
+  margin: 5px;
+  width: 65%;
+}
+
+.myMessage {
+  background-image: linear-gradient(45deg, white, blue);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.mylinks {
+  display: inline-block;
   text-decoration: none;
   color: white;
   font-size: 18px;
   font-weight: 500;
 }
-.navLink:visited {
+.mylinks:visited {
   text-decoration: none;
-  color: #454545;
+  color: #555555;
 }
-.navLink:hover {
-  color: salmon;
+.mylinks:hover {
+  color: lavender;
+}
+
+.card {
+  display: inline-block;
+  /* background-color: rgba(255, 0, 0, 0.05); */
+  border: 5px solid rgba(255, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
+  margin: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-align: start;
+  width: 75%;
+}
+
+li {
+  list-style-type: square;
+  font-size: 15px;
+}
+
+p {
+  font-size: 15px;
+  margin: auto;
+  width: 80%;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+td {
+  padding: 10px;
 }
