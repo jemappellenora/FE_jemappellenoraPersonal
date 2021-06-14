@@ -6,7 +6,7 @@ function ProfileView() {
     <div>
       <h3>Jemappellenora</h3>
       <div>
-        <img src={headShot} style={{ height: "500px" }}></img>
+        <img alt="headShot" src={headShot} style={{ height: "500px" }}></img>
       </div>
       <div className="card">
         <table className="genInfoTable">
