@@ -16,12 +16,12 @@ const NavBarView = () => {
           Experiences
         </Link>
       </div>
-      <div style={{ marginTop: "10px" }}>
+      {/* <div style={{ marginTop: "10px" }}>
         <Link to="/projects/" className="mylinks">
           <img alt="projIcon" src={projectIcon} style={{ filter: "contrast(0%)" }} />
           Projects
         </Link>
-      </div>
+      </div> */}
     </nav>
   );
 };
