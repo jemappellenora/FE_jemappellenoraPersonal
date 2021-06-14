@@ -35,26 +35,18 @@ function ProfileView() {
       <div>
         <h5>Why did I choose Software Engineering?</h5>
         <p>
-          &emsp; I didn’t realize that I wanted to become a software engineer
-          until the third year of my college years. Choosing a major back in
-          college was one of my biggest challenges since I felt that I’m curious
-          in a lot of different professions. Therefore, one semester I decided
-          to take courses in different areas of studies, including art,
-          economics and environmental science, to find out what I really want to
-          do for the rest of my life. I found that semester that my favorite
-          class was computer science101 because learning different algorithms
-          and different variations of code was extremely fun and astonishing. I
-          learned how little changes in code can make enormous impacts on
-          everyone’s lives and it was the point of my life where I decided that
-          I want to explore and understand more about technology. Moreover, I
-          also enjoy being able to turn ideas into final products and,
-          throughout my journey of previous internships, I thrive on building
-          products that can exceed end users’ expectations. Although there might
-          be some difficulties when learning a new technology and/or trying to
-          push out a product, I always appreciate the challenges faced because
-          they help me strengthen my coding skill and also grow professionally
-          by highlighting my weaknesses to be worked on.
-        </p>
+          &emsp;I am eager to learn and grow in a fast-paced and professional environment. 
+          As a self driven and curious individual, I am excited to join a company 
+          where I will have the opportunity to work with more experienced individuals and expand my expertise by tackling challenges,
+           advancing projects, and completing assignments and other achievements.
+              </p>
+        <p>
+        &emsp;In addition to my experience in the tech field, I have previously developed both front-end and back-end applications, 
+using React-Redux.js and React Native for front-end client applications and using express.js, 
+node.js, Django for back-end server applications. During my previous internship experience at a startup company, 
+Commit to Green, I worked as a front-end software developer to construct web and mobile applications by converting design wireframes 
+into application components. In addition, to enhance users’ accessibility, user interface and user experience design, 
+various frameworks and APIs, such as the Google Oauth, the Google Map API, and NYC Open Data APIs, were implemented of the applications. I thrive to build products that exceed users’ expectations and I look forward to joining a team to solve business problems through engineering practices, challenge myself, put my knowledge and skills to use, learn new technologies and translate them into meaningful work.</p>
       </div>
     </div>
   );
