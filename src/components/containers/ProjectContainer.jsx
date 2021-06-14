@@ -6,7 +6,6 @@ class ProjectContainer extends Component {
   render() {
     return (
       <div>
-        <img alt="resume" source={Ching_Wing_Nora_Lau_Resume}/>
         <ProjectView />
       </div>
     );
