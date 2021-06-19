@@ -90,15 +90,13 @@
 }
 
 .card {
-  display: inline-block;
   /* background-color: rgba(255, 0, 0, 0.05); */
   border: 5px solid rgba(255, 0, 0, 0.1);
   background-color: rgba(255, 255, 255, 0.05);
   margin: 10px;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
   text-align: start;
-  width: 75%;
+  width: 100%;
 }
 
 li {
@@ -109,7 +107,7 @@ li {
 p {
   font-size: 15px;
   margin: auto;
-  width: 80%;
+  width: 90%;
   text-align: start;
   margin-bottom: 20px;
 }
