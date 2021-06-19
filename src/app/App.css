@@ -109,7 +109,7 @@ p {
   margin: auto;
   width: 90%;
   text-align: start;
-  margin-bottom: 20px;
+  padding: 10px;
 }
 
 td {
