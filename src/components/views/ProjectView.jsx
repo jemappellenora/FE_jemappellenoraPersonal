@@ -1,34 +1,58 @@
 import React from "react";
+import {icompostNyc, ecoCarrot} from "../images"
+
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1
+};
 
 const ProjectView = () => {
   return (
-    <div id="dummyProjects">
-      <div className="card" style={{ width: "100%" }}>
-        <h4>Projects</h4>
-        <h6>[Click to View]</h6>
-        <li>
-          <a href="http://www.icompost.info" className="mylinks">
-            ICompost
-          </a>
-        </li>
-        <li>
-          <a href="https://eco-carrot.web.app/" className="mylinks">
-            EcoCarrot
-          </a>
-          <div style={{ marginLeft: "50px" }}>
-            Source Code:
+    <div>
+      <h3>Selected Projects</h3>
+      
+      <div className="card">
+          <table className="table" style={{textAlign:"center"}}>
+          <tr>
+            <td>
+              <a href="https://www.icompost.info/">
+                <img src={icompostNyc} className="projectImg"></img>
+              </a> 
+            </td>
+            <td>
+              <a href="https://eco-carrot.web.app/">
+                <img src={ecoCarrot} className="projectImg"></img>
+              </a> 
+            </td>
+          </tr>
+          <tr>
+            <td>
             <div>
-              <a href="https://github.com/eco-carrot/ttp-capstone-ecommerce-client">
-                Front-End Source Code
-              </a>
-            </div>
+                <a href="https://www.icompost.info/logIn" className="mylinks">
+                  ICompostNyc
+                </a>
+              </div>
+            
+            </td>
+            <td>
             <div>
-              <a href="https://github.com/eco-carrot/ttp-capstone-ecommerce-server">
-                Back-End Source Code
-              </a>
+              <div>
+                <a href="https://github.com/eco-carrot/ttp-capstone-ecommerce-client" className="mylinks">
+                  Eco-Carrot : Front-End Source Code
+                </a>
+              </div>
+              <div>
+                <a href="https://github.com/eco-carrot/ttp-capstone-ecommerce-server" className="mylinks">
+                Eco-Carrot : Back-End Source Code
+                </a>
+              </div>
             </div>
-          </div>
-        </li>
+            </td>
+          </tr>
+        </table>
       </div>
     </div>
   );
