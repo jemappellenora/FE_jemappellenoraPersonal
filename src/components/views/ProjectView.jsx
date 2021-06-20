@@ -1,19 +1,10 @@
 import React from "react";
 import {icompostNyc, ecoCarrot} from "../images"
 
-const settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1
-};
-
 const ProjectView = () => {
   return (
     <div>
       <h3>Selected Projects</h3>
-      
       <div className="card">
           <table className="table" style={{textAlign:"center"}}>
           <tr>
