@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ProfileView } from "../views";
+import { ProfileView, ExperiencesView, ProjectView } from "../views";
 import * as emailjs from "emailjs-com";
 import { Button, Form, FormGroup, Input } from "reactstrap";
 import { happyFaceIcon } from "../images";
@@ -54,8 +54,11 @@ class ProfileContainer extends Component {
     return (
       <div>
         <ProfileView />
-        {this.state.messageSent ? (
-          <div className="card">
+        <ProjectView />
+        <ExperiencesView />
+        <div className = "myForm">
+          {this.state.messageSent ? (
+          <div>
             <div className="myMessage">
               Your message has been sent!! I'll get back to you as soon as
               possible, Thank you for your patience{" "}
@@ -63,7 +66,7 @@ class ProfileContainer extends Component {
             </div>
           </div>
         ) : (
-          <div className="myForm">
+          <div>
             Contact Me by Filling the Form Below:
             <Form onSubmit={this.handleSubmit.bind(this)}>
               <FormGroup controlId="formBasicEmail">
@@ -103,6 +106,7 @@ class ProfileContainer extends Component {
             </Form>
           </div>
         )}
+        </div>
       </div>
     );
   }
