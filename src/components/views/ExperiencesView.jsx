@@ -45,7 +45,7 @@ function ExperiencesView() {
       </div>
       <div className="card">
         <h4>J.P.Morgan | April2020</h4>
-        <h6>Virtual Software Engineer Intern</h6>
+        <h6>Software Engineer Intern</h6>
         <li>
         Activated automatic updates of client-side React.js applications and manipulated data feeds visually, using typescript, to present analysis that suggest, to users, when trading for a stock should occur.
         </li>
@@ -58,7 +58,7 @@ function ExperiencesView() {
       </div>
       <div className="card">
         <h4>WITNY Summer Guild at Cornell Tech | June2018</h4>
-        <h6>Participant</h6>
+        <h6>UX/ UI Designer</h6>
         <li>
         Led a team of five to build a minimum viable product model for a User-centered Application, using HTML, Javascript and CSS, that promotes user satisfaction by providing subway real time arrival.
         </li>
